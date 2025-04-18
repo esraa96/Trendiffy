@@ -223,7 +223,7 @@ function draw(product) {
     });
     div.addEventListener("click", function() {
         localStorage.setItem("selectedProduct", JSON.stringify(product));
-        window.location.href = "./Des.html";
+        window.location.href = "../Des.html";
         // alert("Product details saved! Now another page can access it.");
     });
     div.append(img, h1, p1, p2, btn);
