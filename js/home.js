@@ -223,7 +223,7 @@ function draw(product) {
     });
     div.addEventListener("click", function() {
         localStorage.setItem("selectedProduct", JSON.stringify(product));
-        window.location.href = "Des.html";
+        window.location.href = "./Des.html";
         // alert("Product details saved! Now another page can access it.");
     });
     div.append(img, h1, p1, p2, btn);
@@ -281,25 +281,25 @@ document.addEventListener("DOMContentLoaded", function () {
             "id": 101,
             "name": "Women Clothes",
             "category_id": 1,
-            "image": "../assets/Rectangle 19451.png"
+            "image": "./assets/Rectangle 19451.png"
         },
         {
             "id": 112,
             "name": "Mens Clothes",
             "category_id": 2,
-            "image": "../assets/Rectangle 19449.png"
+            "image": "./assets/Rectangle 19449.png"
         },
         {
             "id": 120,
             "name": "Boys Clothes",
             "category_id": 3,
-            "image": "../assets/Rectangle 19450.png"
+            "image": "./assets/Rectangle 19450.png"
         },
         {
             "id": 130,
             "name": "Girls Clothes",
             "category_id": 3,
-            "image": "../assets/The Kids New Luxury Brand “One Two Three”.jpeg"
+            "image": "./assets/The Kids New Luxury Brand “One Two Three”.jpeg"
         }
     ];
 
